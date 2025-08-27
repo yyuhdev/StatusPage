@@ -11,7 +11,7 @@ import StatusWidget from "@/components/status-widget.vue"
   <footer>
     <div class="footer-container">
       <p class="copy-right">
-        yyuh © 2025
+        yyuh © {{ new Date().getFullYear() }}
       </p>
     </div>
   </footer>
